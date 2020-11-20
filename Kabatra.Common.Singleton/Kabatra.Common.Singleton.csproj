@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kevin Kabatra</Authors>
+    <Company />
+    <Description>Simple singleton for reusability.</Description>
+    <Copyright>2020 Kevin Kabatra</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/kevinkabatra/Kabatra.Common.Singleton</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/users/kevinkabatra/projects/1</PackageProjectUrl>
+    <PackageTags>Singleton</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
